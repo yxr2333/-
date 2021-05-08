@@ -1,0 +1,15 @@
+<!--pages/index2/index2.wxml-->
+<view class="container-title">
+    <view class="main">
+        <view class="main-title">选择城市</view>
+        <view class="main-radio">
+            <radio-group class="radio-group" bindchange="radioChange">
+                <label class="radio" wx:for="{{items}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}"/>
+                    <view class="city-name">{{item.value}}</view>
+                </label>
+            </radio-group>
+            <button bindtap="next" class="btn">下一步</button>
+        </view>
+    </view>
+</view>

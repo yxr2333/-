@@ -1,0 +1,60 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "选择城市",
+          "pathName": "pages/index2/index2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "设置总资金",
+          "pathName": "pages/index3/index3",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "资金分配",
+          "pathName": "pages/index4/wh",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "排行榜模式",
+          "pathName": "pages/index5/index5",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "es",
+          "pathName": "pages/index4/es",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "jz",
+          "pathName": "pages/index4/jz",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "yc",
+          "pathName": "pages/index4/yc",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

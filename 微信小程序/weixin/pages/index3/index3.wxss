@@ -1,0 +1,72 @@
+/* pages/index3/index3.wxss */
+.container {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background: url("https://i0.hdslb.com/bfs/album/27669f203e4190c4b45f8cc25df90e58b22c38a7.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.container .river {
+  position: relative;
+  top: 4vh;
+  width: 80%;
+}
+.container .river image {
+  width: 100%;
+}
+.container .river .river-text {
+  color: #666;
+  font-size: 12px;
+  float: right;
+}
+.container .main {
+  background: url("https://i0.hdslb.com/bfs/album/80d753430f065290f74dd126d3a0b79eb21039b6.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 80vh;
+  padding: 15px;
+  display: flex;
+  height: 80%;
+  width: 280px;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.container .main .title {
+  font-size: 16px;
+}
+.container .main .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .main .box .input {
+  text-align: center;
+  text-decoration: #000;
+  display: inline-block;
+  position: relative;
+  width: 30%;
+  border-bottom: 1px solid #000;
+}
+.container .main .box .text {
+  display: inline-block;
+}
+.container .main .tips {
+  font-weight: 800;
+  padding-top: 10px;
+  font-size: 14px;
+}
+.container .main .btn {
+  margin-top: 40px;
+  color: #fff;
+  background-color: var(--themeColor);
+}
+.container .main .btn:active {
+  background-color: var(--btnClickColor);
+}

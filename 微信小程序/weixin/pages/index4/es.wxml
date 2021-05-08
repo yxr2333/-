@@ -1,0 +1,42 @@
+<!--pages/index4/es.wxml-->
+<view class="container-title">
+    <view class="main">
+        <view class="title">资金分配</view>
+        <view class="intro-box">
+            <view class="city-name">恩施市</view>
+            <view class="price">当前现有治理资金：{{cnt}}
+                {{unit}}元</view>
+            <view class="box">
+                <view class="box-title">恩施市水污染治理</view>
+                <view style="text-align: center;">可以考虑以下三个方面</view>
+                <view class="box-item">
+                    <view class="leftTag">城市居民</view>
+                    <view class="midTag">工业工厂</view>
+                    <view class="rightTag">畜禽养殖</view>
+                </view>
+
+            </view>
+            <view class="title2">请确定投资比例</view>
+            <view class="choice-box">
+                <view class="choice-item">
+                    <view class="ques">建设人工湿地：</view>
+                    <input class="input" bindinput ="cnt1Input"/>%
+                </view>
+                <view class="choice-item">
+                    <view class="ques">减少农药施肥</view>
+                    <input class="input" bindinput ="cnt2Input"/>%
+                </view>
+                <view class="choice-item">
+                    <view class="ques">改善畜禽养殖模式:</view>
+                    <input class="input" bindinput ="cnt3Input"/>%
+                </view>
+
+                <view>还剩{{bal}}{{unit2}}</view>
+                <view class="all">合计: {{res}}%</view>
+            </view>
+            <button bindtap="check" class="btn">确定</button>
+        </view>
+
+    </view>
+
+</view>

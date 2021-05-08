@@ -1,0 +1,65 @@
+<!--pages/index5/index5.wxml-->
+
+<view class="container">
+    <view class="top">
+        <view class="top-title">投资结果</view>
+        <view class="text">您的投资方法可为
+            <!-- <view >{{city}}市</view> -->
+            <view class="city-name">{{city}}</view>
+        </view>
+        <view class="text">处理
+        <!-- <view style="display:inline-block;border-bottom: 1px solid #000;">{{res}}</view>吨污水 -->
+
+            <view style="display:inline-block;border-bottom: 2px solid #000;text-align:center;padding-top: 3px;">{{res}}</view>万吨污水
+        </view>
+        <view class="water-item">相当于
+            <view class="water-num">{{slf}}</view>
+            万个水立方
+        </view>
+    </view>
+
+    <view class="ranklist">
+        <!-- <view>您此次在{{city}}市的投资性价比排名如下</view> -->
+        <view class="rankTitle">您此次在{{city}}的投资性价比排名如下</view>
+        <view class="Item">
+            <view class="rankItem">
+                <view class="rank">本次排名</view>
+                <!-- <view>{{rank}}</view> -->
+                <view class="num">{{rank}}</view>
+            </view>
+            <image class="avatar" src='{{avatarUrl}}' mode="widthFix"></image>
+            <view class="sumItem">
+                <view class="sum">吨数（万）</view>
+                <!-- <view>{{res}}</view> -->
+                <view class="num">{{res}}</view>
+            </view>
+        </view>
+
+        <view class="rankContainer">
+            <view class="rankTitle">
+                <view class="iconfont icon-paihangbang titleText">排行榜</view>
+            </view>
+            <scroll-view class="scroll-container" scroll-y="{{true}}" scroll-top="0"  scroll-with-animation="{{true}}">
+                <view class="scroll-title">
+                    <view class="scorll-title-item">名称</view>
+                    <!-- <view class="scorll-title-item">总资金</view> -->
+                    <view class="scorll-title-item">性价比</view>
+                    <view class="scorll-title-item">排行</view>
+                </view>
+                <view class="scroll-item" wx:for="{{rank_users}}" data-index="{{index}}"  wx:key="key">
+                    <view class="scroll-item-item">{{item.name}}</view>
+                    <!-- <view class="scroll-item-item">{{item.cnt}}</view> -->
+                    <view class="scroll-item-item">{{item.res}}</view>
+                    <view class="scroll-item-item">{{index+1}}</view>
+                </view>
+            </scroll-view>
+            <view class="intro">
+                <view class="line">排行以用户的投资性价比为标准</view>
+                <view class="line">注：性价比 = 处理量 / 总资金</view>
+            </view>
+        </view>
+
+        <button bindtap="return" class="btn">重新开始</button>
+    </view>
+
+</view>

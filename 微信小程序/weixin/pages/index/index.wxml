@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container-title">
+  <view class="main">
+    <view class="title">背景介绍</view>
+    <view class="background-intro">
+      <view class="text">
+截止到目前，我国重点流域的水污染防治工作取得了一定进展，然而污水处理量的增加仍远远滞后于排放量的增长，污水治理设施长期超负荷承载，无法适应现实需求。
+因此，优化水污染治理方案，以更加综合的方式改善和维护当前水环境，大力推进水生态保护，对缓解当前水污染，助推中国经济高质量发展具有十分重要的现实意义。
+      </view>
+      <button bindtap="go" class="btn">开始</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+
+<view class="container">
+<!--pages/index3/index3.wxml-->
+
+    <view class="main">
+        <view class="title">请输入</view>
+        <view class="title">开展水污染处理的预备资金</view>
+        <view class="box">
+            <input bindinput ="cntInput" class="input" />
+            <view class="text">{{unit}}元</view>
+        </view>
+        <view class="tips">预备资金不少于1000万且不多于10亿</view>
+        <button class="btn" bindtap="check">确定</button>
+        <view class="river">
+            <image mode="widthFix" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fn.sinaimg.cn%2Fsinacn15%2F400%2Fw1280h720%2F20180905%2F1aa2-hitesuy6401173.jpg&refer=http%3A%2F%2Fn.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1622883929&t=b34afd0818eea370a2834739f9a46311"/>
+            <!-- <view class="river-text">
+                图为：湖北省长江流域
+            </view> -->
+        </view>
+    </view>
+</view>

@@ -1,0 +1,78 @@
+/**app.wxss**/
+/*.container {
+  height: 100vh;
+  background: url("https://i.loli.net/2021/05/02/kEglYhpKV6CiNRX.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container-title{
+  height: 100vh;
+  background: url("https://i.loli.net/2021/05/02/gtriGBMkVN9zflZ.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+page{
+  --themeColor: #F97D1C;
+  --btnClickColor: #fca104;
+}
+@font-face {
+  font-family: "iconfont"; /* Project id 2500022 */
+  src: url('//at.alicdn.com/t/font_2500022_fcm2pq5zdqe.woff2?t=1619923520610') format('woff2'),
+       url('//at.alicdn.com/t/font_2500022_fcm2pq5zdqe.woff?t=1619923520610') format('woff'),
+       url('//at.alicdn.com/t/font_2500022_fcm2pq5zdqe.ttf?t=1619923520610') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-paihangbang:before {
+  content: "\e67b";
+}
+
+.icon-yajun:before {
+  content: "\e6b0";
+}
+
+.icon-guanjun:before {
+  content: "\e6b1";
+}
+
+.icon-jijun:before {
+  content: "\e6b2";
+}
+
+.icon-jiangbei:before {
+  content: "\ec3c";
+}
+
+.icon-fenxiang:before {
+  content: "\e67f";
+}
+
+.icon-kefu:before {
+  content: "\e697";
+}
+
+.icon-shoucang:before {
+  content: "\e62f";
+}
+
+.icon-gouwuche:before {
+  content: "\e610";
+}
+
+.icon-sousuo:before {
+  content: "\e647";
+}
+
+.icon-geren1:before {
+  content: "\e622";
+}

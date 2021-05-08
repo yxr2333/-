@@ -1,0 +1,154 @@
+.container {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background: url("https://i0.hdslb.com/bfs/album/27669f203e4190c4b45f8cc25df90e58b22c38a7.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .top .top-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.container .top .text {
+  font-size: 16px;
+}
+.container .top .text .city-name {
+  text-align: center;
+  display: inline;
+  font-size: 24px;
+  border-bottom: 2px solid #000;
+}
+.container .top .water-item {
+  font-size: 16px;
+}
+.container .top .water-item .water-num {
+  display: inline-block;
+  font-size: 24px;
+  border-bottom: #000 solid 2px;
+}
+.container .ranklist {
+  background: url("https://i0.hdslb.com/bfs/album/80d753430f065290f74dd126d3a0b79eb21039b6.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150% 500px;
+  padding: 15px;
+  margin: 10px auto;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .ranklist .rankTitle {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.container .ranklist .Item {
+  width: 90%;
+  display: flex;
+}
+.container .ranklist .Item .rankItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .ranklist .Item .rankItem .rank {
+  color: #a6a6a6;
+  font-size: 16px;
+}
+.container .ranklist .Item .rankItem .num {
+  font-size: 30px;
+  color: var(--themeColor);
+}
+.container .ranklist .Item .avatar {
+  flex: 1;
+  border-radius: 50%;
+  width: 20%;
+}
+.container .ranklist .Item .sumItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .ranklist .Item .sumItem .sum {
+  font-size: 16px;
+
+  text-align: center;
+  color: #a6a6a6;
+}
+.container .ranklist .Item .sumItem .num {
+  width: 80px;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  font-size: 21px;
+  color: var(--themeColor);
+}
+.container .ranklist .rankContainer {
+  width: 100%;
+}
+.container .ranklist .rankContainer .rankTitle {
+  padding-bottom: 0;
+  font-weight: bold;
+  font-size: 28px;
+  border-bottom: 1px solid #000;
+}
+.container .ranklist .rankContainer .scroll-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 100%;
+}
+.container .ranklist .rankContainer .scroll-container .scroll-title {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .ranklist .rankContainer .scroll-container .scroll-title .scorll-title-item {
+  flex: 1;
+  text-align: center;
+}
+.container .ranklist .rankContainer .scroll-container .scroll-item {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.container .ranklist .rankContainer .scroll-container .scroll-item .scroll-item-item {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  margin-left: 10px;
+  font-size: 16px;
+  text-align: center;
+  flex: 1;
+}
+.container .ranklist .rankContainer .intro {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .ranklist .btn {
+  margin-top: 10px;
+  background-color: var(--themeColor);
+  color: #fff;
+}

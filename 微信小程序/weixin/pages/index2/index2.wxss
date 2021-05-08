@@ -1,0 +1,64 @@
+/* pages/index2/index2.wxss */
+.container-title .main {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background: url("https://i0.hdslb.com/bfs/album/27669f203e4190c4b45f8cc25df90e58b22c38a7.png");
+  background-size: cover;
+  height: 102vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container-title .main .main-title {
+  background: url("https://i0.hdslb.com/bfs/album/fa72d3e7cf1cc6fc16f24303831a918cb71b27c0.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 115% 120px;
+  font-size: 38px;
+  width: 80%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-title .main .main-radio {
+  background: url("https://i0.hdslb.com/bfs/album/80d753430f065290f74dd126d3a0b79eb21039b6.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 115% 110%;
+  width: 80%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2vh auto;
+  padding: 15px;
+}
+.container-title .main .main-radio .radio-group {
+  width: 100%;
+}
+.container-title .main .main-radio .radio-group view {
+  display: inline-block;
+}
+.container-title .main .main-radio .radio-group label {
+  margin-bottom: 4vh;
+  width: 100%;
+  display: block;
+}
+.container-title .main .main-radio .radio-group .city-name {
+  width: 80%;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.container-title .main .main-radio .radio-group .radio {
+  flex: 1;
+}
+.container-title .main .main-radio .btn {
+  color: #fff;
+  background-color: var(--themeColor);
+}
+.container-title .main .main-radio .btn:active {
+  background-color: var(--btnClickColor);
+}
